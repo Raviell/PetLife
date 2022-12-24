@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 7.9vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+
+    #icon {
+        margin-left: 16px;
+
+        img {
+            width: 60px;
+        }
+    }
+
+    div {
+        align-items: flex-end;
+        color: white;
+        margin-right: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: -2px;
+    }
+
+}

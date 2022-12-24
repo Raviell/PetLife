@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 4.1vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}

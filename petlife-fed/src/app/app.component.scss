@@ -1,0 +1,21 @@
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    #header {
+        height: 7.9vh;
+    }
+
+    #body {
+        height: 87vh;
+        width: 100vw;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: 4.1vh;
+    }
+}

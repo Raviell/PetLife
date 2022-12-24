@@ -1,0 +1,6 @@
+<div id="content">
+   <ul *ngFor="let button of buttons">
+      <li><button (click)="button.buttonFunction()"> {{button.buttonName}}</button></li>
+  </ul>
+</div>
+

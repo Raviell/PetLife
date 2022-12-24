@@ -1,11 +1,28 @@
-#view {
-    background-image: url('/assets/Background/Background.png');
-    background-color: aliceblue;
-    background-repeat: no-repeat;
-    background-size: cover;
+#content {
     width: 100vw;
     height: 88vh;
-    opacity: 0.3;
+    position: relative;
+    display: flex;
 
-    
+    #view {
+        background-image: url('/assets/Background/Background.png');
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 88vh;
+        opacity: 0.3;
+        color: black;
+        position: relative;       
+    }
+
+    #navbar {
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        height: 88vh;
+        justify-content: flex-end;
+        text-align: center;
+    }
+
 }
